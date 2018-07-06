@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="老王的编程教室">
 <meta property="og:description" content="scratch是什么Scratch是一款由麻省理工学院（MIT） 设计开发的少儿编程工具。 多语言（包含简体中文），开源，完全免费。 简单来说：通过鼠标拖拽即可完成程序逻辑的构建，使用者无需像学习各个编程语言那样了解语法，可以直接通过 图形化界面完成工程的编写，在官方提供的基本资源库（图片，声音）下即可完成各式各样的游戏等程序开发。你 可以用它做一个游戏，画一幅画，做一个电子相册，做一个动画，讲一">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-05T13:09:00.894Z">
+<meta property="og:updated_time" content="2018-07-06T02:34:35.293Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Scratch教程-序">
 <meta name="twitter:description" content="scratch是什么Scratch是一款由麻省理工学院（MIT） 设计开发的少儿编程工具。 多语言（包含简体中文），开源，完全免费。 简单来说：通过鼠标拖拽即可完成程序逻辑的构建，使用者无需像学习各个编程语言那样了解语法，可以直接通过 图形化界面完成工程的编写，在官方提供的基本资源库（图片，声音）下即可完成各式各样的游戏等程序开发。你 可以用它做一个游戏，画一幅画，做一个电子相册，做一个动画，讲一">
@@ -357,62 +357,74 @@
 <p>图形化界面完成工程的编写，在官方提供的基本资源库（图片，声音）下即可完成各式各样的游戏等程序开发。你</p>
 <p>可以用它做一个游戏，画一幅画，做一个电子相册，做一个动画，讲一个故事，做一个生动的问答测试等等。</p>
 <p>以最简单有趣的方式提供一个能够自由发挥的编程平台，这是我对scratch的评价。</p>
+<p>注：除非特指，本教程scratch版本默认为最新版本scratch2。</p>
 <h3 id="scratch-如何运行"><a href="#scratch-如何运行" class="headerlink" title="scratch 如何运行"></a>scratch 如何运行</h3><p>浏览器在线：官方网站：<a href="https://scratch.mit.edu/" target="_blank" rel="noopener">https://scratch.mit.edu/</a></p>
 <p>脱机离线软件： 下载链接：<a href="https://scratch.mit.edu/download" target="_blank" rel="noopener">https://scratch.mit.edu/download</a></p>
 <p>俩者界面一致，但在线的由于服务器在国外的原因，加载和读取资源稍慢，好处是云端储存不用安装。</p>
 <p>在线和离线方式都可以分享工程至官方网站，与全球scratch爱好者分享和交流你的成果。</p>
-<h3 id="本教程主要面向"><a href="#本教程主要面向" class="headerlink" title="本教程主要面向"></a>本教程主要面向</h3><p>儿童编程向：家长，感兴趣的儿童/少年，儿童编程相关从业者(多多交流，共同进步)</p>
-<p>对图形化编程感兴趣，想了解的好奇宝宝。</p>
-<h3 id="为什么学习scratch"><a href="#为什么学习scratch" class="headerlink" title="为什么学习scratch"></a>为什么学习scratch</h3><p>除了网络中搜到的相关原因之外，从编程语言学习本身出发，学习scratch与其他编程语言如：</p>
+<h3 id="本教程主要面向"><a href="#本教程主要面向" class="headerlink" title="本教程主要面向"></a>本教程主要面向</h3><pre><code>1. 家长，学会后教给孩子，亲子教育两不误
+2. 感兴趣的儿童/少年，能够跟着教程自学
+3. 儿童编程相关从业者，多多交流，共同进步
+4. 对图形化编程或者编程感兴趣的童鞋
+</code></pre><h3 id="为什么学习scratch"><a href="#为什么学习scratch" class="headerlink" title="为什么学习scratch"></a>为什么学习scratch</h3><p>除了网络中搜到的相关原因之外，从编程语言学习本身出发，学习scratch与其他编程语言如：</p>
 <p>java,c++,python一样，学习语言本身就是学会如何与“计算机”沟通，如何把现实问题转换成机器语言，但scratch</p>
 <p>却着非常低的学习门槛。</p>
-<p>首先，scratch运行环境无需操心，图形化的编程模式使得开发者无需理解繁琐的关键词，特殊语句，可以做到“打</p>
-<p>开既开始”。</p>
-<p>其次，scratch把通常编程需要的函数和概念分类封装成积木，原生整合了非常的图片和声音资源，并且提供了完</p>
+<p>首先，scratch开发环境无需特别搭建，图形化的编程模式使得开发者无需理解繁琐的关键词，特殊语法，以及系</p>
+<p>统函数，可以做到“打开既开始”。</p>
+<p>其次，scratch把通常编程需要的函数和概念分类封装成积木，原生整合了丰富的图片和声音资源，并且提供了完</p>
 <p>整度很高的中文支持。</p>
 <p>最后，全球的工程资源都共享在统一平台，供开发者学习和展示，逐渐形成了一个完善的生态链。</p>
 <h4 id="开发一个应用会经历些什么"><a href="#开发一个应用会经历些什么" class="headerlink" title="开发一个应用会经历些什么"></a>开发一个应用会经历些什么</h4><ol>
-<li>思考目的，考虑可行性，构造结果<ol>
+<li><p>思考目的，考虑可行性，构造结果</p>
+<ol>
 <li>将抽象的思维转换成具体的目的</li>
 <li>考虑利用现有资源是否能完成</li>
 <li>在大脑中构造一个基本结果并模拟运作</li>
 </ol>
 </li>
-<li>把思维转换成scratch语言<ol>
+<li><p>把思维转换成scratch语言</p>
+<ol>
 <li>学会用“别人”的逻辑思考问题</li>
 <li>把完整的结果分为几个步骤或模块进行考虑</li>
 <li>在大脑中或通过其他方式完成设计</li>
 </ol>
 </li>
-<li>实践：尝试，碰壁，寻求帮助。<ol>
+<li><p>实践：尝试，碰壁，寻求帮助。</p>
+<ol>
 <li>一边动脑一边动手</li>
 <li>遇到困难，学会借助帮助或搜索引擎解决问题</li>
 </ol>
 </li>
-<li>验证：程序是否符合期望<ol>
+<li><p>验证：程序是否符合期望</p>
+<ol>
 <li>不仅完成，还需要检查结果</li>
 <li>越仔细，测试的路径越完整，呈现后出现的问题越少</li>
 </ol>
 </li>
-<li>思考并调整：再已经完成的基础上寻求更好的解决方案<ol>
+<li><p>思考并调整：再已经完成的基础上寻求更好的解决方案</p>
+<ol>
 <li>永远都有更好的方案</li>
 <li>大多好的工程都是渐进完成的</li>
 </ol>
 </li>
-<li>呈现：提交他人可以体验的结果。<ol>
+<li><p>呈现：提交他人可以体验的结果。</p>
+<ol>
 <li>共享结果，分享经验</li>
 <li>获得属于自己的成就感</li>
 </ol>
 </li>
 </ol>
-<p>​    可以看出这个过程同现实中完成一个任务非常类似，区别是这个过程成本极低，却能让孩子</p>
+<p>   可以看出这个过程同现实中完成一个任务非常类似，区别是这个过程成本极低，却能让孩子</p>
 <p>得到宝贵的经验。如此对思维反复的训练，积累的结果还可以应用在生活或者其他学习过程中。</p>
 <h4 id="教程内容导向"><a href="#教程内容导向" class="headerlink" title="教程内容导向"></a>教程内容导向</h4><p>​    本教程不仅旨在教会scratch的使用，并且在课程中包含儿童（甚至青少年）数学，物理，科学等各个方面的</p>
 <p>知识，以游戏或其他类型工程开发为例，让儿童对这些知识有所了解，或将自己学会的知识应用在其中。</p>
-<h4 id="结合时代背景"><a href="#结合时代背景" class="headerlink" title="结合时代背景"></a>结合时代背景</h4><p>​    这个时代已经离不开编程，生活的每一个环节都和软件，程序既编程的结果物离不开关系，先不说人工智能</p>
-<p>是否会取代大部分工作，但未来一定离不开编程，编程在未来将不是一个专业的职业方向，会变成更加“平民化”，</p>
-<p>成为类似与骑车，算术一样的基本技能，人们在遇到越来越复杂问题不再会通过“原始”的方式进行解决，更多倾向</p>
-<p>使用更加智能和自动化的手段，届时编程能力或者运用程序的能力既解决问题的能力。</p>
+<h4 id="时代背景"><a href="#时代背景" class="headerlink" title="时代背景"></a>时代背景</h4><p>​    这个时代离不开编程，生活的每一个环节都和软件,程序既编程的结果物离不开关系，先不说人工智能</p>
+<p>是否会取代大部分工作，但未来一定离不开编程，编程将不再是一个专业的职业方向，会变成更加“平民化”，</p>
+<p>成为类似与骑车，算术一样的基本技能，人们在遇到越来越复杂问题不再会通过“原始”的方式进行解决，更多情况</p>
+<p>下会选择使用智能和自动化的手段，届时编程能力或者运用程序的能力就等同于解决问题的能力。</p>
+<blockquote>
+<p>准备好了？ 那我们开始吧</p>
+</blockquote>
 
       
     </div>
@@ -439,6 +451,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/07/06/scratch-edu-1/" rel="prev" title="scratch初级-1-月球漫步">
+                scratch初级-1-月球漫步 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -512,7 +540,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -567,7 +595,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#scratch是什么"><span class="nav-number">1.</span> <span class="nav-text">scratch是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scratch-如何运行"><span class="nav-number">2.</span> <span class="nav-text">scratch 如何运行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本教程主要面向"><span class="nav-number">3.</span> <span class="nav-text">本教程主要面向</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么学习scratch"><span class="nav-number">4.</span> <span class="nav-text">为什么学习scratch</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#开发一个应用会经历些什么"><span class="nav-number">4.1.</span> <span class="nav-text">开发一个应用会经历些什么</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#教程内容导向"><span class="nav-number">4.2.</span> <span class="nav-text">教程内容导向</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#结合时代背景"><span class="nav-number">4.3.</span> <span class="nav-text">结合时代背景</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#scratch是什么"><span class="nav-number">1.</span> <span class="nav-text">scratch是什么</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scratch-如何运行"><span class="nav-number">2.</span> <span class="nav-text">scratch 如何运行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#本教程主要面向"><span class="nav-number">3.</span> <span class="nav-text">本教程主要面向</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么学习scratch"><span class="nav-number">4.</span> <span class="nav-text">为什么学习scratch</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#开发一个应用会经历些什么"><span class="nav-number">4.1.</span> <span class="nav-text">开发一个应用会经历些什么</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#教程内容导向"><span class="nav-number">4.2.</span> <span class="nav-text">教程内容导向</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#时代背景"><span class="nav-number">4.3.</span> <span class="nav-text">时代背景</span></a></li></ol></li></ol></div>
             
 
           </div>
