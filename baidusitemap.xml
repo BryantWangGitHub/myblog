@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://www.wangwj.top/2018/07/09/dialogflow-test/</loc>
+    <lastmod>2018-10-16T02:58:51.694Z</lastmod>
+    <data>
+        <display>
+        <title>dialogflow.com 试玩报告</title>
+        <pubTime>2018-07-09T02:09:41.000Z</pubTime>
+        
+        <tag>dialogflow</tag>
+         
+        <tag>机器人</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术杂记" url="http://www.wangwj.top/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.wangwj.top/2018/07/20/scratch-edu-5/</loc>
     <lastmod>2018-07-20T09:18:33.885Z</lastmod>
     <data>
@@ -93,7 +115,7 @@
     
   <url>
     <loc>http://www.wangwj.top/2018/07/09/scratch-edu-2/</loc>
-    <lastmod>2018-07-14T14:36:37.026Z</lastmod>
+    <lastmod>2018-07-14T14:36:37.027Z</lastmod>
     <data>
         <display>
         <title>老王教你学编程 scratch初级-2-穿越迷宫</title>
@@ -114,30 +136,8 @@
 
     
   <url>
-    <loc>http://www.wangwj.top/2018/07/09/dialogflow-test/</loc>
-    <lastmod>2018-07-09T11:41:53.029Z</lastmod>
-    <data>
-        <display>
-        <title>dialogflow.com 试玩报告</title>
-        <pubTime>2018-07-09T02:09:41.000Z</pubTime>
-        
-        <tag>dialogflow</tag>
-         
-        <tag>机器人</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术杂记" url="http://www.wangwj.top/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.wangwj.top/2018/07/09/jenkins-spring/</loc>
-    <lastmod>2018-07-09T02:28:53.092Z</lastmod>
+    <lastmod>2018-07-09T02:28:53.093Z</lastmod>
     <data>
         <display>
         <title>linux环境下使用docker：jenkins对spring boot工程进行部署</title>
